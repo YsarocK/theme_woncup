@@ -1,0 +1,73 @@
+/* LOGIN-REGISTER */
+
+.form-login{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #181c28;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-login h2{
+    width: 100%;
+    max-width: 300px;
+    text-align: left;
+    color: #3491ca;
+}
+
+.form-login>div{
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-form-login{
+    flex-direction: column;
+    padding: 20px;
+}
+
+.container-form-login form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    max-width: 300px;
+}
+.container-form-login form input[type=text]{
+    width: 100%;
+    max-width: 300px;
+    background-color: #292d39;
+    color: white;
+    border: none;
+    margin-bottom: 5px;
+    padding: 10px;
+}
+
+input:focus{
+    outline: none;
+}
+
+.container-form-login form input[type=submit]{
+    margin-top: 20px;
+    background-color: #3491ca;
+    color: white;
+    font-size: 0.8rem;
+    padding: 10px 20px 10px 20px;
+    text-transform: uppercase;
+    width: 100%;
+}
+
+.side-picture{
+    background: url(http://woncup.net/wp-content/themes/theme_woncup/img/login_img_1.jpg);
+    background-size: cover;
+}
+
+.form-login label{
+    margin: 0;
+    color: rgba(255, 255, 255, 0.5);
+}

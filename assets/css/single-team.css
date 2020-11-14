@@ -1,0 +1,147 @@
+#team_container{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#team_header{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+#team_banner{
+    height: 60%;
+    width: 100%;
+    background-color: #292d39;
+    border: 10px;
+}
+
+#team_logo{
+    border: solid 10px #181c28;
+    background-color: #292d39;
+    width: 200px;
+    height: 200px;
+    width: 200px;
+    border-radius: 200px;
+    position: absolute;
+    bottom: 0;
+    left: 15px;
+}
+
+#team_name{
+    color: rgba(255, 255, 255, 0.7);
+}
+
+#team_players{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+#team_players_container{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.team_unique_player{
+    height: 100px;
+    width: 100%;
+    max-width: 200px;
+    margin: 15px;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: #181c28;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.team_unique_player p{
+    margin: 0;
+}
+
+.player_icon{
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+}
+
+#team_games{
+    display: flex;
+    flex-direction: column;
+}
+
+#team_games>div>div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px;
+    background-color: #181c28;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#team_games img{
+    width: 40px;
+}
+
+#team_games p{
+    margin: 5px;
+}
+
+.palmares{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#team-palmares{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#team-palmares>div{
+    margin-right: 10px;
+}
+
+.palmares p{
+    margin: 0;
+}
+
+#team-palmares label{
+    font-size: 0.5rem;
+    margin: 0;
+}
+
+.buttons-palmares{
+    margin-top: 15px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.buttons-palmares button{
+    background: none;
+    border: none;
+}
+
+.buttons-palmares i{
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.buttons-palmares #expCount{
+    margin: 0;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
