@@ -6,7 +6,7 @@ function ajax_assets() {
   
     // Charger notre script
     wp_enqueue_script( 'ajax', get_stylesheet_directory_uri()."/assets/js/ajax.js", array( 'jquery' ), '1.0', true );
-    wp_enqueue_script( 'functions-woncup', get_stylesheet_directory_uri()."/assets/functions.js", array( 'jquery' ), '1.0', true );
+    wp_enqueue_script( 'functions-woncup', get_stylesheet_directory_uri()."/assets/js/functions.js", array( 'jquery' ), '1.0', true );
     wp_enqueue_script( 'sweetalert', 'https://cdn.jsdelivr.net/npm/sweetalert2@9', array( 'jquery' ), '1.0', true );
     wp_enqueue_script( 'chartjs', 'https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.bundle.js', array( 'jquery' ), '1.0', true );
     wp_enqueue_style( 'opensans', 'https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;700;800&display=swap', array(), NULL, NULL);
